@@ -1,0 +1,30 @@
+.wrap {
+  color: red;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap li {
+  list-style:none;
+  position: relative;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.7);
+  margin-bottom: 50px;
+}
+
+.wrap li a {
+  text-decoration: none;
+  color: black;
+}
+
+.wrap li img {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+.wrap li article {
+  padding-left: 220px;
+  min-height: 200px;
+}
